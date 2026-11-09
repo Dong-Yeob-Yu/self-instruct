@@ -130,3 +130,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local app state, generated datasets and workstation files
+.DS_Store
+.idea/
+data/asr_web/
+data/tts_validation/
+ai-dataset/
+dataset-*/
+*.wav
+*.gguf
+*.safetensors
+*.zip
